@@ -9,7 +9,7 @@ class Animal(ABC):
         self.__CheckName(name)
         self._name = name
 
-    # метод класса, служищий для проверки того, что кличка является строкой
+    # метод класса, служащий для проверки того, что кличка является строкой
     @classmethod
     def __CheckName(cls, name):
         if type(name) is not str:

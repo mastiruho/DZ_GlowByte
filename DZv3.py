@@ -99,7 +99,7 @@ class WildAnimal(Animal):
 
 class Veterinarian:
     # класс ветеринара
-    # объект имеет private атрибут name - имя
+    # объект имеет private атрибут name - имя ветеринара
     def __init__(self, name):
         self.__CheckName(name)
         self.__name = name
